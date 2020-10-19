@@ -4,5 +4,24 @@
   "private": true,
   "scripts": {
     "start": "npm app.js"
+  },
+  "description": "Votre objectif pour ce TP est de réaliser un mini-site affichant une collection de livres. Un formulaire permet de choisir la catégorie littéraire. En appuyant sur un bouton, vous arrivez sur une autre page présentant la collection correspondante.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp03-mini-library-mansour-azeddine.git"
+  },
+  "author": "mansour azeddine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp03-mini-library-mansour-azeddine/issues"
+  },
+  "homepage": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp03-mini-library-mansour-azeddine#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.0"
   }
 }
